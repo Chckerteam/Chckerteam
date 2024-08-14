@@ -15,11 +15,13 @@ local Tab1Section = Tab1:NewSection("매인")
 
 local Tab2 = window:NewTab("크래딧")
 
-local Tab2Section = Tab2:NewSection("Made By JN HH GAMING and translation chcker team (번역 chcker team) ")
+local Tab2Section = Tab2:NewSection("Made By JN HH GAMING ")
 
-local Tab2Section = Tab2:NewSection("Subscribe To JN HH Gaming, chcker team On Youtube(chcker team 유튜브를 구독해주세요)")
+local Tab2Section = Tab2:NewSection("translation chcker team (번역 chcker team)")
 
- 
+local Tab2Section = Tab2:NewSection("Subscribe To JN HH Gaming")
+
+ local Tab2Section = Tab2:NewSection("chcker team On Youtube(chcker team 유튜브를 구독해주세요) ")
 
 ---Buttons
 
