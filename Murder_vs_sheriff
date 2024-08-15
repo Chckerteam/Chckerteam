@@ -9,11 +9,11 @@ local window = kavoUi.CreateLib("Muderer Vs Sheriff","Ocean")
 
  
 
-local Tab1 = window:NewTab("매인")
+local Tab1 = window:NewTab("매인(Main)")
 
-local Tab1Section = Tab1:NewSection("매인")
+local Tab1Section = Tab1:NewSection("매인(Main)")
 
-local Tab2 = window:NewTab("크래딧")
+local Tab2 = window:NewTab("크래딧(credit)")
 
 local Tab2Section = Tab2:NewSection("Made By JN HH GAMING ")
 
@@ -27,7 +27,7 @@ local Tab2Section = Tab2:NewSection("Subscribe To JN HH Gaming")
 
  
 
-Tab1Section:NewButton("히트박스","Increase Range",function()
+Tab1Section:NewButton("히트박스(hitbox)","Increase Range",function()
 
 _G.HeadSize = 15
 
@@ -69,7 +69,7 @@ end)
 
 
 
-Tab1Section:NewButton("거대 히트박스","Increase Range",function()
+Tab1Section:NewButton("거대 히트박스(huge hitbox)","Increase Range",function()
 
 _G.HeadSize = 100
 
@@ -111,7 +111,7 @@ end)
 
  
 
-Tab1Section:NewToggle("무한 점프"," Infinite Jumps",function()
+Tab1Section:NewToggle("무한 점프(Infinite Jumps)"," Infinite Jumps",function()
 
 local InfiniteJumpEnabled = true
 
@@ -129,7 +129,7 @@ end)
 
  
 
-Tab1Section:NewButton("빠른 속도","Increase speed",function()
+Tab1Section:NewButton("빠른 속도(Speed)","Increase speed",function()
 
 function isNumber(str)
 
@@ -177,7 +177,7 @@ end)
 
  
 
-Tab1Section:NewButton("투시","Esp",function()
+Tab1Section:NewButton("투시(Esp)","Esp",function()
 
 local Settings = {
 
